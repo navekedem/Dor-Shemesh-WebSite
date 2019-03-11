@@ -1,0 +1,243 @@
+body {
+  background-color: black;
+  /* position: absolute; */
+}
+
+.contact {
+  font-family: "Miriam Libre", sans-serif;
+}
+
+.head-line {
+  position: relative;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.main-image {
+  margin-top: 4rem;
+  width: 46%;
+  margin-left: 26%;
+}
+.nav-bar {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  margin: 0 12px 0px 0;
+  float: left;
+}
+.space-mark {
+  font-size: 20px;
+  color: orange;
+}
+.information {
+  margin-top: 6rem;
+  text-align: center;
+}
+.contact-info {
+  font-size: 20px;
+  color: white;
+  font-family: "Miriam Libre", sans-serif;
+}
+.icon-insta {
+  width: 3%;
+}
+.icon-face {
+  margin-left: 37px;
+  width: 3%;
+}
+
+.down-menu {
+  margin: auto;
+  width: 90%;
+  margin-top: 6rem;
+}
+
+.down-menu > span {
+  float: right;
+}
+hr {
+  size: 2;
+  width: 100%;
+  color: "#585858";
+}
+.logo {
+  width: 10%;
+}
+.sp-rights {
+  color: gray;
+}
+@media only screen and (min-width: 600px) {
+  .head-line {
+    width: 375px;
+  }
+  .main-image {
+    margin-top: 4rem;
+    width: 96%;
+    margin-left: 47%;
+  }
+  .nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 13px;
+    color: orange;
+  }
+  .logo {
+    width: 12%;
+  }
+  .down-menu > span {
+    font-size: 7px;
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  a {
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 13px;
+    color: orange;
+  }
+
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 7px;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 9%;
+  }
+
+  a {
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 13px;
+    color: orange;
+  }
+  .logo {
+    width: 12%;
+  }
+  .down-menu > span {
+    font-size: 7px;
+    float: right;
+  }
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .head-line {
+    width: 768px;
+  }
+  .main-image {
+    margin-top: 4rem;
+    width: 67%;
+    margin-left: 16%;
+  }
+  a {
+    font-size: 22px;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 70%;
+    margin-left: 30%;
+  }
+  a {
+    font-size: 22px;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 70%;
+    margin-left: 47%;
+  }
+  a {
+    font-size: 22px;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}

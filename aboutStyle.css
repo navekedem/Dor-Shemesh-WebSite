@@ -1,0 +1,281 @@
+body {
+  background-color: black;
+  /* position: absolute; */
+}
+
+.contact {
+  font-family: "Miriam Libre", sans-serif;
+}
+
+#head-line {
+  position: relative;
+  width: 100%;
+}
+a {
+  
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.nav-bar {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-bar {
+  margin-top: 1rem;
+}
+li {
+  margin: 0 12px 0px 0;
+  float: left;
+}
+.space-mark {
+  font-size: 20px;
+  color: orange;
+}
+.about {
+  margin-top: 5rem;
+  text-align: center;
+}
+.dor-img {
+  width: 10%;
+}
+.about-info {
+  font-family: "Heebo", sans-serif;
+  font-size: 23px;
+  color: white;
+}
+.down-menu {
+  margin: auto;
+  width: 90%;
+  margin-top: 6rem;
+}
+
+.down-menu > span {
+  float: right;
+}
+hr {
+  size: 2;
+  width: 100%;
+  color: "#585858";
+}
+.logo {
+  width: 10%;
+}
+.sp-rights {
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  .head-line {
+    width: 375px;
+  }
+  .main-image {
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 9%;
+  }
+  .nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about {
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .about-info {
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+  a {
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 13px;
+    color: orange;
+  }
+
+  .logo {
+    width: 12%;
+  }
+  .down-menu > span {
+    font-size: 7px;
+    float: right;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 9%;
+  }
+  #tpopup {
+    width: 232px;
+    height: 302px;
+    margin-left: -95px;
+    margin-top: -114px;
+  }
+  .nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about {
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .about-info {
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    color: white;
+  }
+  a {
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 7px;
+    float: right;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .head-line {
+    width: 768px;
+  }
+  .main-image {
+    margin-top: 4rem;
+    width: 67%;
+    margin-left: 11%;
+  }
+  .about {
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .about-info {
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-image {
+    margin-top: 4rem;
+
+    width: 70%;
+    margin-left: 30%;
+  }
+  .nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about-info {
+    font-family: "Heebo", sans-serif;
+    font-size: 26px;
+    color: white;
+  }
+  a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-image {
+    margin-top: 4rem;
+    width: 76%;
+    margin-left: 42%;
+  }
+  .nav-bar {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about {
+    margin: auto;
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .about-info {
+    font-family: "Heebo", sans-serif;
+    font-size: 26px;
+    color: white;
+  }
+  a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .space-mark {
+    font-size: 20px;
+    color: orange;
+  }
+  .logo {
+    width: 10%;
+  }
+  .down-menu > span {
+    font-size: 12px;
+    float: right;
+  }
+}
