@@ -65,11 +65,11 @@ li {
   font-family: "Miriam Libre", sans-serif;
 }
 .icon-insta {
-  width: 3%;
+  width: 4%;
 }
 .icon-face {
   margin-left: 37px;
-  width: 3%;
+  width: 4%;
 }
 
 .down-menu {
@@ -92,10 +92,10 @@ hr {
 .sp-rights {
   color: gray;
 }
+
+
 @media only screen and (min-width: 600px) {
-  .head-line {
-    width: 375px;
-  }
+
   .main-image {
     margin-top: 4rem;
     width: 96%;
@@ -106,7 +106,11 @@ hr {
     display: flex;
     justify-content: center;
   }
-
+  .contact-info {
+    font-size: 14px;
+    color: white;
+    font-family: "Miriam Libre", sans-serif;
+  }
   a {
     font-size: 15px;
     text-decoration: none;
@@ -127,8 +131,8 @@ hr {
 @media only screen and (max-width: 600px) {
   .main-image {
     margin-top: 4rem;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 9%;
   }
   a {
     font-size: 15px;
@@ -138,9 +142,13 @@ hr {
     font-size: 13px;
     color: orange;
   }
-
+  .contact-info {
+    font-size: 14px;
+    color: white;
+    font-family: "Miriam Libre", sans-serif;
+  }
   .logo {
-    width: 10%;
+    width: 14%;
   }
   .down-menu > span {
     font-size: 7px;
@@ -151,8 +159,8 @@ hr {
 @media only screen and (min-width: 600px) {
   .main-image {
     margin-top: 4rem;
-    width: 80%;
-    margin-left: 9%;
+    width: 55%;
+    margin-left: 23%;
   }
 
   a {
@@ -164,7 +172,7 @@ hr {
     color: orange;
   }
   .logo {
-    width: 12%;
+    width: 14%;
   }
   .down-menu > span {
     font-size: 7px;
@@ -174,13 +182,11 @@ hr {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .head-line {
-    width: 768px;
-  }
+ 
   .main-image {
     margin-top: 4rem;
-    width: 67%;
-    margin-left: 16%;
+    width: 55%;
+    margin-left: 23%;
   }
   a {
     font-size: 22px;
@@ -195,14 +201,19 @@ hr {
   .down-menu > span {
     font-size: 12px;
     float: right;
+  }
+  .contact-info {
+    font-size: 20px;
+    color: white;
+    font-family: "Miriam Libre", sans-serif;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .main-image {
     margin-top: 4rem;
-    width: 70%;
-    margin-left: 30%;
+    width: 51%;
+    margin-left: 24%;
   }
   a {
     font-size: 22px;
@@ -219,12 +230,17 @@ hr {
     font-size: 12px;
     float: right;
   }
+  .contact-info {
+    font-size: 20px;
+    color: white;
+    font-family: "Miriam Libre", sans-serif;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .main-image {
     margin-top: 4rem;
-    width: 70%;
-    margin-left: 47%;
+    width: 50%;
+    margin-left: 25%;
   }
   a {
     font-size: 22px;
@@ -239,5 +255,10 @@ hr {
   .down-menu > span {
     font-size: 12px;
     float: right;
+  }
+  .contact-info {
+    font-size: 20px;
+    color: white;
+    font-family: "Miriam Libre", sans-serif;
   }
 }

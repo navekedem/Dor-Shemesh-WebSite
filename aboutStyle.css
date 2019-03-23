@@ -6,8 +6,7 @@ body {
 .contact {
   font-family: "Miriam Libre", sans-serif;
 }
-
-#head-line {
+.head-line {
   position: relative;
   width: 100%;
 }
@@ -87,9 +86,7 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-  .head-line {
-    width: 375px;
-  }
+
   .main-image {
     margin-top: 4rem;
     width: 80%;
@@ -100,7 +97,9 @@ hr {
     display: flex;
     justify-content: center;
   }
-
+  .logo {
+    width: 14%;
+  }
   .about {
     margin: auto;
     width: 90%;
@@ -132,8 +131,8 @@ hr {
 @media only screen and (min-width: 600px) {
   .main-image {
     margin-top: 4rem;
-    width: 80%;
-    margin-left: 9%;
+    width: 55%;
+    margin-left: 23%;
   }
   #tpopup {
     width: 232px;
@@ -162,7 +161,7 @@ hr {
   }
 
   .logo {
-    width: 10%;
+    width: 14%;
   }
   .down-menu > span {
     font-size: 7px;
@@ -172,13 +171,11 @@ hr {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .head-line {
-    width: 768px;
-  }
+
   .main-image {
     margin-top: 4rem;
-    width: 67%;
-    margin-left: 11%;
+    width: 55%;
+    margin-left: 23%;
   }
   .about {
     margin: auto;
@@ -212,8 +209,8 @@ hr {
   .main-image {
     margin-top: 4rem;
 
-    width: 70%;
-    margin-left: 30%;
+    width: 51%;
+    margin-left: 24%;
   }
   .nav-bar {
     margin-top: 1rem;
@@ -245,8 +242,8 @@ hr {
 @media only screen and (min-width: 1200px) {
   .main-image {
     margin-top: 4rem;
-    width: 76%;
-    margin-left: 42%;
+    width: 50%;
+    margin-left: 25%;
   }
   .nav-bar {
     margin-top: 1rem;

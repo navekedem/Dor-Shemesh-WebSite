@@ -130,7 +130,7 @@ hr {
   color: "#585858";
 }
 .logo {
-  width: 10%;
+  width: 14%;
 }
 .sp-rights {
   color: gray;
@@ -141,13 +141,11 @@ hr {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .head-line {
-    width: 375px;
-  }
+
   .main-image {
     margin-top: 4rem;
-    width: 96%;
-    margin-left: 47%
+    width: 55%;
+    margin-left: 23%;
   }
   .nav-bar {
     margin-top: 1rem;
@@ -166,6 +164,11 @@ hr {
     position: relative;
     flex-wrap: wrap;
   }
+  .space-mark{
+    font-size: 13px;
+     color: orange;
+   
+   }
   .container > div {
     padding: 11px;
     width: 39%;
@@ -173,7 +176,7 @@ hr {
     text-align: center;
   }
   .logo {
-    width: 10%;
+    width: 14%;
   }
   .down-menu > span {
     font-size: 7px;
@@ -224,13 +227,11 @@ hr {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .head-line {
-    width: 768px;
-  }
+
   .main-image {
     margin-top: 4rem;
-    width: 67%;
-    margin-left: 16%;
+    width: 55%;
+    margin-left: 23%;
   }
   #tpopup{
     width: 572px;
@@ -256,7 +257,7 @@ hr {
   .container > div {
     padding: 10px;
 
-    width: 24%;
+    width: 27%;
     margin: 5px 6px 8px 36px;
     text-align: center;
   }
@@ -273,9 +274,10 @@ hr {
 @media only screen and (min-width: 992px) {
   .main-image {
     margin-top: 4rem;
-    width: 70%;
-    margin-left: 30%;
+    width: 51%;
+    margin-left: 24%;
   }
+  
   .nav-bar {
     margin-top: 1rem;
     display: flex;
@@ -297,7 +299,11 @@ hr {
     margin: 0 12px 0px 0;
     float: left;
   }
-
+  .space-mark{
+    font-size: 19px;
+     color: orange;
+   
+   }
   .container {
     margin-top: 1rem;
     display: flex;
@@ -363,8 +369,8 @@ hr {
 @media only screen and (min-width: 1200px) {
   .main-image {
     margin-top: 4rem;
-    width: 70%;
-    margin-left: 47%;
+    width: 50%;
+    margin-left: 25%;
   }
   .nav-bar {
     margin-top: 1rem;
@@ -445,6 +451,11 @@ hr {
     font-size: 12px;
     float: right;
   }
+  .space-mark{
+    font-size: 20px;
+     color: orange;
+   
+   }
 }
 
 
