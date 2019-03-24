@@ -67,7 +67,15 @@ li {
   text-align: center;
 }
 .box > img {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
   width: 100%;
+}
+.box > img:hover{
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .space-mark{
  font-size: 20px;

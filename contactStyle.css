@@ -235,6 +235,13 @@ hr {
     color: white;
     font-family: "Miriam Libre", sans-serif;
   }
+  .icon-insta {
+    width: 3%;
+  }
+  .icon-face {
+    margin-left: 37px;
+    width: 3%;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .main-image {
@@ -260,5 +267,12 @@ hr {
     font-size: 20px;
     color: white;
     font-family: "Miriam Libre", sans-serif;
+  }
+  .icon-insta {
+    width: 3%;
+  }
+  .icon-face {
+    margin-left: 37px;
+    width: 3%;
   }
 }
